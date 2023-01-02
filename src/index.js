@@ -11,7 +11,7 @@ function Field(props) {
 function Input(props) {
   return (
     <div className="input-group">
-      <input className={props.className}>{props.text}</input>
+      <input className="input-field"}>{props.text}</input>
       <button className="input-button" onClick={props.onClick}></button>
     </div>
   )
