@@ -1,0 +1,72 @@
+*{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span {
+  display: inline-block;
+
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+button {
+  flex-grow: 2;
+  margin-left: 5%;
+  margin-right: 0;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.field {
+  text-align: left;
+}
+
+.app {
+  display: grid;
+  place-items: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.field-group {
+  padding: 0;
+  border: 2px solid black;
+  font-weight: bolder;
+  width: 100%;
+  
+}
+
+.input-field {
+  background-color: rgb(50, 150, 200);
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+
+
+  margin-left: 0;
+  flex-grow: 4;
+  border: 2px solid black;
+  font-weight: bolder;
+}
+
+
+.input-button {
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+
+  border: 2px solid black;
+  font-weight: bolder;
+}
+
+.info {
+  width: 200px
+}
